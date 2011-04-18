@@ -1,0 +1,11 @@
+// Spring Roo 1.1.3.RELEASE [rev 4404ffb] log opened at 2011-04-18 04:02:24
+project --topLevelPackage com.shopzilla.publisher.rich --projectName shopzilla-publisher-gwt --java 6
+// Spring Roo 1.1.3.RELEASE [rev 4404ffb] log closed at 2011-04-18 04:02:27
+// Spring Roo 1.1.3.RELEASE [rev 4404ffb] log opened at 2011-04-18 04:03:15
+help
+persistence setup --database GOOGLE_APP_ENGINE --provider DATANUCLEUS
+entity --class ~.domain.Product
+field string --fieldName title
+field string --fieldName url
+field string --fieldName imgUrl
+web gwt setup
